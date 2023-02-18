@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+option csharp_namespace = "CustomerClient";
+
+package greet;
+import "google/protobuf/wrappers.proto";
+import "google/protobuf/empty.proto";
+//import "google/protobuf/wrappers.proto";
+// The greeting service definition.
+service Bank {
+  rpc OpenAccount (OpenAccountRequest) returns (OpenAccountReply);
+  rpc Withdraw (WithdrawRequest) returns (google.protobuf.FloatValue);
+  rpc Deposit (DepositRequest) returns (google.protobuf.Empty);
+  rpc GetHistory (google.protobuf.UInt32Value) returns (google.protobuf.StringValue);
+  rpc CloseAccount (google.protobuf.UInt32Value) returns (google.protobuf.BoolValue);
+}
+
+message OpenAccountRequest {
+  string firstName = 1;
+  string lastName =  2;
+  float  debtLimit = 3;
+}
+
+
+message OpenAccountReply {
+    google.protobuf.UInt32Value Id = 1;
+}
+
+// The request message containing the user's name.
+message DepositRequest {
+  uint32 account = 1;
+  float ammount = 2;
+}
+
+message WithdrawRequest {
+  uint32 account = 1;
+  float ammount = 2;
+}
+
+

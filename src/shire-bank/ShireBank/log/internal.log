@@ -1,0 +1,565 @@
+2023-02-18 15:09:52.5031 Info Message Template Auto Format enabled
+2023-02-18 15:09:52.5262 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 15:09:52.7182 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 15:09:52.7798 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 15:09:52.8107 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=48, FilePath=C:\Projects\PRACA\shire-bank\ShireBankGrcpService\bin\Debug\net6.0\NLog.config
+2023-02-18 15:09:52.8306 Info Configuration initialized.
+2023-02-18 15:09:52.8462 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 15:09:53.2775 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=48, FilePath=C:\Projects\PRACA\shire-bank\ShireBankGrcpService\bin\Debug\net6.0\NLog.config
+2023-02-18 15:09:53.3033 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.3148 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.3148 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.3148 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 15:09:53.3337 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.3337 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.3337 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.3337 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.3337 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.3337 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.3337 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.4540 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.4956 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.4956 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.6138 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.6138 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.6138 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:09:53.8619 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:11:24.4496 Warn Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:11:24.7188 Warn Logger: Microsoft.EntityFrameworkCore.Infrastructure configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:11:24.8366 Warn Logger: Microsoft.EntityFrameworkCore.ChangeTracking configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:11:24.8366 Warn Logger: Microsoft.EntityFrameworkCore.Database.Command configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:11:24.8366 Warn Logger: Microsoft.EntityFrameworkCore.Query configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:11:24.8647 Warn Logger: Microsoft.EntityFrameworkCore.Model configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:11:24.8647 Warn Logger: Microsoft.EntityFrameworkCore.Model.Validation configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:11:25.7368 Warn Logger: Microsoft.EntityFrameworkCore.Update configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:12.0005 Info Message Template Auto Format enabled
+2023-02-18 15:15:12.0288 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 15:15:12.3319 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 15:15:12.4372 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 15:15:12.4855 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=48, FilePath=C:\Projects\PRACA\shire-bank\ShireBankGrcpService\bin\Debug\net6.0\NLog.config
+2023-02-18 15:15:12.5093 Info Configuration initialized.
+2023-02-18 15:15:12.5252 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 15:15:13.0958 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=48, FilePath=C:\Projects\PRACA\shire-bank\ShireBankGrcpService\bin\Debug\net6.0\NLog.config
+2023-02-18 15:15:13.1325 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.1461 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.1461 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.1461 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 15:15:13.1654 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.1654 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.1654 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.1654 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.1654 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.1654 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.1654 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.2940 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.3408 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.3408 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.3496 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.3496 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.3496 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:13.7322 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:41.3312 Warn Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:41.6160 Warn Logger: Microsoft.EntityFrameworkCore.Infrastructure configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:41.7712 Warn Logger: Microsoft.EntityFrameworkCore.ChangeTracking configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:41.7712 Warn Logger: Microsoft.EntityFrameworkCore.Database.Command configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:41.7712 Warn Logger: Microsoft.EntityFrameworkCore.Query configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:41.7993 Warn Logger: Microsoft.EntityFrameworkCore.Model configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:41.7993 Warn Logger: Microsoft.EntityFrameworkCore.Model.Validation configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:15:42.8154 Warn Logger: Microsoft.EntityFrameworkCore.Update configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:27.9405 Info Message Template Auto Format enabled
+2023-02-18 15:18:27.9621 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 15:18:28.1630 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 15:18:28.2340 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 15:18:28.2656 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBankGrcpService\bin\Debug\net6.0\NLog.config
+2023-02-18 15:18:28.2840 Info Configuration initialized.
+2023-02-18 15:18:28.2976 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 15:18:28.9289 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBankGrcpService\bin\Debug\net6.0\NLog.config
+2023-02-18 15:18:28.9615 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:28.9727 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:28.9727 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 15:18:28.9727 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 15:18:28.9880 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:28.9880 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:28.9880 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:28.9880 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:28.9880 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:28.9880 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:28.9880 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:29.0929 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:29.1353 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:29.1353 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:29.1441 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:29.1441 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:29.1441 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:18:29.3955 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:19:16.3931 Warn Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:19:16.6706 Warn Logger: Microsoft.EntityFrameworkCore.Infrastructure configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:19:16.7708 Warn Logger: Microsoft.EntityFrameworkCore.ChangeTracking configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:19:16.7708 Warn Logger: Microsoft.EntityFrameworkCore.Database.Command configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:19:16.7708 Warn Logger: Microsoft.EntityFrameworkCore.Query configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:19:16.8036 Warn Logger: Microsoft.EntityFrameworkCore.Model configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:19:16.8036 Warn Logger: Microsoft.EntityFrameworkCore.Model.Validation configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:19:17.6333 Warn Logger: Microsoft.EntityFrameworkCore.Update configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:30.9384 Info Message Template Auto Format enabled
+2023-02-18 15:22:30.9615 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 15:22:31.1588 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 15:22:31.2230 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 15:22:31.2565 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBankGrcpService\bin\Debug\net6.0\NLog.config
+2023-02-18 15:22:31.2759 Info Configuration initialized.
+2023-02-18 15:22:31.2897 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 15:22:31.7477 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBankGrcpService\bin\Debug\net6.0\NLog.config
+2023-02-18 15:22:31.7717 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.7717 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.7717 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.7821 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 15:22:31.7821 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.7821 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.7821 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.7981 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.7981 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.7981 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.7981 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.9087 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.9484 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.9484 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.9565 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.9565 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:31.9565 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:32.1836 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:43.1675 Warn Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:43.4352 Warn Logger: Microsoft.EntityFrameworkCore.Infrastructure configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:43.5448 Warn Logger: Microsoft.EntityFrameworkCore.ChangeTracking configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:43.5472 Warn Logger: Microsoft.EntityFrameworkCore.Database.Command configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:43.5472 Warn Logger: Microsoft.EntityFrameworkCore.Query configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:43.5709 Warn Logger: Microsoft.EntityFrameworkCore.Model configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:43.5709 Warn Logger: Microsoft.EntityFrameworkCore.Model.Validation configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:22:44.4229 Warn Logger: Microsoft.EntityFrameworkCore.Update configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:46.1259 Info Message Template Auto Format enabled
+2023-02-18 15:43:46.1466 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 15:43:46.3302 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 15:43:46.3928 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 15:43:46.4372 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 15:43:46.4559 Info Configuration initialized.
+2023-02-18 15:43:46.4559 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 15:43:46.9161 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 15:43:46.9554 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:46.9554 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:46.9698 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 15:43:46.9698 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 15:43:46.9887 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:46.9887 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:46.9887 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:46.9887 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:46.9887 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:46.9887 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:46.9887 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:47.1416 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:47.2436 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:47.2436 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:47.2561 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:47.2561 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:47.2561 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 15:43:47.5226 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:40.4102 Info Message Template Auto Format enabled
+2023-02-18 16:33:40.4317 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 16:33:40.6157 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 16:33:40.6784 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 16:33:40.7189 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 16:33:40.7417 Info Configuration initialized.
+2023-02-18 16:33:40.7540 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 16:33:41.2143 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 16:33:41.2392 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.2392 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.2392 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.2392 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 16:33:41.2601 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.2601 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.2601 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.2601 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.2601 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.2601 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.2601 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.3783 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.4273 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.4273 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.4392 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.4392 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.4392 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:33:41.7278 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:34:39.9684 Warn Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:34:40.2393 Warn Logger: Microsoft.EntityFrameworkCore.Infrastructure configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:34:58.7602 Warn Logger: Microsoft.EntityFrameworkCore.ChangeTracking configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:34:58.7602 Warn Logger: Microsoft.EntityFrameworkCore.Database.Command configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:34:58.7602 Warn Logger: Microsoft.EntityFrameworkCore.Query configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:34:58.7865 Warn Logger: Microsoft.EntityFrameworkCore.Model configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:34:58.7865 Warn Logger: Microsoft.EntityFrameworkCore.Model.Validation configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:34:59.5012 Warn Logger: Microsoft.EntityFrameworkCore.Update configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:53.4160 Info Message Template Auto Format enabled
+2023-02-18 16:35:53.4387 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 16:35:53.6508 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 16:35:53.7173 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 16:35:53.7771 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 16:35:53.8202 Info Configuration initialized.
+2023-02-18 16:35:53.8417 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 16:35:54.3896 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 16:35:54.4130 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.4130 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.4229 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.4229 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 16:35:54.4382 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.4382 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.4382 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.4382 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.4382 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.4382 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.4382 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.5897 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.6337 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.6337 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.6437 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.6437 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:54.6437 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:35:55.0161 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:36:10.7446 Warn Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:36:11.0186 Warn Logger: Microsoft.EntityFrameworkCore.Infrastructure configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:36:11.1211 Warn Logger: Microsoft.EntityFrameworkCore.ChangeTracking configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:36:11.1211 Warn Logger: Microsoft.EntityFrameworkCore.Database.Command configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:36:11.1250 Warn Logger: Microsoft.EntityFrameworkCore.Query configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:36:11.1537 Warn Logger: Microsoft.EntityFrameworkCore.Model configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:36:11.1537 Warn Logger: Microsoft.EntityFrameworkCore.Model.Validation configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:36:12.0743 Warn Logger: Microsoft.EntityFrameworkCore.Update configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:56.9936 Info Message Template Auto Format enabled
+2023-02-18 16:37:57.0144 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 16:37:57.2013 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 16:37:57.2712 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 16:37:57.3579 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 16:37:57.3896 Info Configuration initialized.
+2023-02-18 16:37:57.4070 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 16:37:57.9597 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 16:37:57.9986 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.0123 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.0123 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.0123 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 16:37:58.0348 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.0348 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.0348 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.0348 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.0348 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.0348 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.0348 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.1622 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.2069 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.2069 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.2069 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.2069 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.2069 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:37:58.6763 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:38:05.3513 Warn Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:38:05.6065 Warn Logger: Microsoft.EntityFrameworkCore.Infrastructure configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:38:05.8016 Warn Logger: Microsoft.EntityFrameworkCore.ChangeTracking configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:38:05.8016 Warn Logger: Microsoft.EntityFrameworkCore.Database.Command configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:38:05.8016 Warn Logger: Microsoft.EntityFrameworkCore.Query configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:38:05.8321 Warn Logger: Microsoft.EntityFrameworkCore.Model configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:38:05.8321 Warn Logger: Microsoft.EntityFrameworkCore.Model.Validation configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 16:38:06.7355 Warn Logger: Microsoft.EntityFrameworkCore.Update configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:14.9649 Info Message Template Auto Format enabled
+2023-02-18 18:13:14.9912 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 18:13:15.2112 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 18:13:15.2779 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 18:13:15.3078 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 18:13:15.3251 Info Configuration initialized.
+2023-02-18 18:13:15.3400 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 18:13:15.9520 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 18:13:15.9732 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:15.9732 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:15.9732 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 18:13:15.9732 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 18:13:16.0023 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:16.0023 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:16.0023 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:16.0023 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:16.0023 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:16.0023 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:16.0023 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:16.1425 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:16.1987 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:16.2047 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:16.2047 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:16.2047 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:16.2197 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:16.4954 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:34.2485 Warn Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:34.5839 Warn Logger: Microsoft.EntityFrameworkCore.Infrastructure configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:34.7063 Warn Logger: Microsoft.EntityFrameworkCore.ChangeTracking configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:34.7063 Warn Logger: Microsoft.EntityFrameworkCore.Database.Command configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:34.7063 Warn Logger: Microsoft.EntityFrameworkCore.Query configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:34.7231 Warn Logger: Microsoft.EntityFrameworkCore.Database.Transaction configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:34.7231 Warn Logger: Microsoft.EntityFrameworkCore.Database.Connection configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:34.7725 Warn Logger: Microsoft.EntityFrameworkCore.Model configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:34.7725 Warn Logger: Microsoft.EntityFrameworkCore.Model.Validation configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:13:36.0694 Warn Logger: Microsoft.EntityFrameworkCore.Update configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:32:35.3049 Info Message Template Auto Format enabled
+2023-02-18 18:32:35.3230 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 18:32:35.4181 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 18:32:35.4310 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 18:32:35.4614 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 18:32:35.4751 Info Configuration initialized.
+2023-02-18 18:32:35.4751 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 18:32:35.6693 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 18:32:35.6842 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:32:35.6895 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:32:35.6895 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 18:32:35.6895 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 18:32:35.7427 Info Shutdown() called. Logger closing...
+2023-02-18 18:32:35.7427 Info Closing old configuration.
+2023-02-18 18:33:41.3063 Info Message Template Auto Format enabled
+2023-02-18 18:33:41.3232 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 18:33:41.4310 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 18:33:41.4436 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 18:33:41.4799 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 18:33:41.4977 Info Configuration initialized.
+2023-02-18 18:33:41.5043 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 18:33:41.7136 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 18:33:41.7345 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:33:41.7415 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:33:41.7415 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 18:33:41.7415 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 18:33:41.7992 Info Shutdown() called. Logger closing...
+2023-02-18 18:33:41.7992 Info Closing old configuration.
+2023-02-18 18:33:41.8186 Info Logger has been closed down.
+2023-02-18 18:34:56.1180 Info Message Template Auto Format enabled
+2023-02-18 18:34:56.1398 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 18:34:56.2711 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 18:34:56.2875 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 18:34:56.3244 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 18:34:56.3411 Info Configuration initialized.
+2023-02-18 18:34:56.3512 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 18:34:56.6045 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 18:34:56.6269 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:34:56.6269 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:34:56.6269 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 18:34:56.6269 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 18:34:56.6986 Info Shutdown() called. Logger closing...
+2023-02-18 18:34:56.6986 Info Closing old configuration.
+2023-02-18 18:34:56.7219 Info Logger has been closed down.
+2023-02-18 18:37:56.9918 Info Message Template Auto Format enabled
+2023-02-18 18:37:57.0144 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 18:37:57.2169 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 18:37:57.2797 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 18:37:57.3118 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 18:37:57.3315 Info Configuration initialized.
+2023-02-18 18:37:57.3447 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 18:37:57.8761 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 18:37:57.9018 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:57.9094 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:57.9094 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 18:37:57.9094 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 18:37:57.9264 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:57.9264 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:57.9264 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:57.9264 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:57.9264 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:57.9264 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:57.9264 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:58.0596 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:58.1095 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:58.1104 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:58.1104 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:58.1104 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:58.1104 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:37:58.3802 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:38:14.0573 Warn Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:56.2156 Info Message Template Auto Format enabled
+2023-02-18 18:48:56.2390 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 18:48:56.5009 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 18:48:56.5651 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 18:48:56.5949 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 18:48:56.6118 Info Configuration initialized.
+2023-02-18 18:48:56.6273 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 18:48:57.1123 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 18:48:57.1343 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.1419 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.1419 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.1419 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 18:48:57.1575 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.1575 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.1575 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.1575 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.1575 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.1575 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.1575 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.2691 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.3132 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.3132 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.3132 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.3132 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.3132 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:48:57.5483 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:27.2766 Info Message Template Auto Format enabled
+2023-02-18 18:49:27.2976 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 18:49:27.4878 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 18:49:27.5468 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 18:49:27.5788 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 18:49:27.6040 Info Configuration initialized.
+2023-02-18 18:49:27.6197 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 18:49:28.2144 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 18:49:28.2404 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.2404 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.2404 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.2404 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 18:49:28.2634 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.2634 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.2634 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.2634 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.2634 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.2665 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.2665 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.4139 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.4821 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.4821 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.4923 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.4923 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.4923 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:28.7257 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 18:49:53.1061 Warn Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:27:56.7562 Info Message Template Auto Format enabled
+2023-02-18 19:27:56.7791 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 19:27:56.9780 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 19:27:57.0420 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 19:27:57.0738 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 19:27:57.0982 Info Configuration initialized.
+2023-02-18 19:27:57.1127 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 19:27:57.5841 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 19:27:57.6111 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:27:57.6111 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:27:57.6111 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 19:27:57.6111 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 19:27:57.6352 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:27:57.6352 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:27:57.6352 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:27:57.6352 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:27:57.6352 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:27:57.6352 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:27:57.6352 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:28:00.2723 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:28:00.3249 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:28:00.3249 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:28:00.3344 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:28:00.3344 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:28:00.3344 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:28:00.6748 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:29:35.4754 Warn Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:37.7271 Info Message Template Auto Format enabled
+2023-02-18 19:42:37.7484 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 19:42:37.9366 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 19:42:38.0192 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 19:42:38.0699 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 19:42:38.0955 Info Configuration initialized.
+2023-02-18 19:42:38.0955 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 19:42:38.6207 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 19:42:38.6624 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:38.6624 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:38.6624 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 19:42:38.6721 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 19:42:38.6721 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:38.6721 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:38.6721 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:38.6884 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:38.6884 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:38.6884 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:38.6884 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:40.6701 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:40.7134 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:40.7134 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:40.7246 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:40.7246 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:40.7246 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:42:40.9490 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 19:43:01.3031 Warn Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:21:59.1909 Info Message Template Auto Format enabled
+2023-02-18 20:21:59.2130 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 20:21:59.3926 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 20:21:59.4605 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 20:21:59.4902 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 20:21:59.5114 Info Configuration initialized.
+2023-02-18 20:21:59.5269 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 20:22:57.1023 Info Message Template Auto Format enabled
+2023-02-18 20:22:57.1249 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 20:22:57.3907 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 20:22:57.4821 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 20:22:57.5553 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 20:22:57.6168 Info Configuration initialized.
+2023-02-18 20:22:57.6497 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 20:22:58.1656 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 20:22:58.2007 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:22:58.2132 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:22:58.2132 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 20:22:58.2132 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 20:22:58.2339 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:22:58.2348 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:22:58.2348 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:22:58.2348 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:22:58.2348 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:22:58.2348 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:22:58.2348 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:22:59.9615 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:23:00.0115 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:23:00.0115 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:23:00.0221 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:23:00.0221 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:23:00.0221 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:23:00.2695 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:23:51.1488 Warn Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:38.5134 Info Message Template Auto Format enabled
+2023-02-18 20:43:38.5355 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 20:43:38.7249 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 20:43:38.7824 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 20:43:38.8165 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 20:43:38.8409 Info Configuration initialized.
+2023-02-18 20:43:38.8627 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 20:43:39.5682 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 20:43:39.6026 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:39.6129 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:39.6129 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 20:43:39.6129 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 20:43:39.6376 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:39.6376 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:39.6430 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:39.6430 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:39.6430 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:39.6430 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:39.6430 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:41.5183 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:41.5608 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:41.5608 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:41.5706 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:41.5706 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:41.5706 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:43:41.7971 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:13.8098 Info Message Template Auto Format enabled
+2023-02-18 20:46:13.8334 Info Loading assembly: NLog.Web.AspNetCore
+2023-02-18 20:46:14.0172 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-18 20:46:14.1182 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-18 20:46:14.1904 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 20:46:14.2185 Info Configuration initialized.
+2023-02-18 20:46:14.2385 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.2.1561. Product version: 5.1.2+f57745d9fb1124b8629db879019db120a57698ab. GlobalAssemblyCache: False
+2023-02-18 20:46:14.8450 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=44, FilePath=C:\Projects\PRACA\shire-bank\ShireBank\bin\Debug\net6.0\NLog.config
+2023-02-18 20:46:14.8806 Warn Logger: Microsoft.Extensions.Hosting.Internal.ApplicationLifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:14.8943 Warn Logger: Microsoft.Extensions.Hosting.Internal.Host configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:14.8943 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='Microsoft.Hosting.Lifetime*' and Level=Warn has been skipped.
+2023-02-18 20:46:14.8943 Warn Logger: Microsoft.Hosting.Lifetime configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Debug has been skipped.
+2023-02-18 20:46:14.9108 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServer configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:14.9108 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:14.9108 Warn Logger: Microsoft.AspNetCore.Server.Kestrel configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:14.9108 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.BadRequests configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:14.9108 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Connections configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:14.9108 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http2 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:14.9108 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Http3 configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:16.5898 Warn Logger: Microsoft.AspNetCore.Hosting.Diagnostics configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:16.6314 Warn Logger: Microsoft.AspNetCore.Routing.EndpointMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:16.6314 Warn Logger: Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:16.6314 Warn Logger: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:16.6314 Warn Logger: Microsoft.AspNetCore.HostFiltering.HostFilteringMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:16.6468 Warn Logger: Microsoft.AspNetCore.Watch.BrowserRefresh.BrowserRefreshMiddleware configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:16.8726 Warn Logger: Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
+2023-02-18 20:46:34.0884 Warn Logger: Microsoft.AspNetCore.Routing.Matching.DfaMatcher configured with duplicate output to target: FileTarget(Name=logfile). LoggingRule with NamePattern='*' and Level=Warn has been skipped.
