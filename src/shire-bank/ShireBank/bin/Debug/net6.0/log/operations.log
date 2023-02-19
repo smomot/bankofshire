@@ -5632,3 +5632,18 @@ Date :01.01.0001 Operation :Withdraw Ammount: 50
 2023-02-19 22:06:34.8305|Debug|Reading message. |EventId=10, EventName=ReadingMessage 
 2023-02-19 22:06:34.8305|Warn|Close account 3 unsucessfull. Ballance greater than 0. | 
 2023-02-19 22:06:34.8305|Debug|Sending message. |EventId=15, EventName=SendingMessage 
+2023-02-19 22:28:30.6757|Warn|Overriding address(es) 'http://localhost:5027, https://localhost:7212'. Binding to endpoints defined via IConfiguration and/or UseKestrel() instead. |addresses=http://localhost:5027, https://localhost:7212 
+2023-02-19 22:28:30.7907|Info|Now listening on: https://[::]:7212 |address=https://[::]:7212, EventId=14, EventName=ListeningOnAddress 
+2023-02-19 22:28:30.8079|Info|Application started. Press Ctrl+C to shut down. | 
+2023-02-19 22:28:30.8079|Info|Hosting environment: Development |envName=Development 
+2023-02-19 22:28:30.8079|Info|Content root path: C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\ShireBank\ |contentRoot=C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\ShireBank\ 
+2023-02-19 22:28:41.5157|Debug|Reading message. |EventId=10, EventName=ReadingMessage 
+2023-02-19 22:28:41.5545|Warn|Inspection started | 
+2023-02-19 22:28:41.5545|Warn|### SYSTEM LOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS SUSPENDED ### | 
+2023-02-19 22:28:41.5717|Debug|Sending message. |EventId=15, EventName=SendingMessage 
+2023-02-19 22:28:41.6605|Debug|Reading message. |EventId=10, EventName=ReadingMessage 
+2023-02-19 22:28:42.6418|Debug|Sending message. |EventId=15, EventName=SendingMessage 
+2023-02-19 22:28:45.1871|Debug|Reading message. |EventId=10, EventName=ReadingMessage 
+2023-02-19 22:28:45.1871|Warn|Inspection finished | 
+2023-02-19 22:28:45.1871|Warn|### SYSTEM UNLOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS RESEUMED ### | 
+2023-02-19 22:28:45.1926|Debug|Sending message. |EventId=15, EventName=SendingMessage 

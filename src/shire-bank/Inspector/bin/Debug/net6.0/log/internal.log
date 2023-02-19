@@ -83,3 +83,9 @@
 2023-02-19 22:06:09.2609 Info Shutdown() called. Logger closing...
 2023-02-19 22:06:09.2609 Info Closing old configuration.
 2023-02-19 22:06:09.2742 Info Logger has been closed down.
+2023-02-19 22:28:39.9593 Info Message Template Auto Format enabled
+2023-02-19 22:28:40.1417 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-19 22:28:40.2066 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-19 22:28:40.2464 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=45, FilePath=C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\Inspector\bin\Debug\net6.0\NLog.config
+2023-02-19 22:28:40.2665 Info Configuration initialized.
+2023-02-19 22:28:40.2988 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False

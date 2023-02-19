@@ -301,3 +301,12 @@ Date :01.01.0001 Operation :Withdraw Ammount: 2000
  | 
 2023-02-19 22:06:07.4357|Warn|=== Inspection finished  === | 
 2023-02-19 22:06:07.4357|Warn|### SYSTEM UNLOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS RESEUMED ### | 
+2023-02-19 22:28:40.7630|Warn|=== Inspection started === | 
+2023-02-19 22:28:41.6384|Warn|### SYSTEM LOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS SUSPENDED ### | 
+2023-02-19 22:28:42.6440|Trace|
+-------------------------------
+[History operations for all accounts]
+-------------------------------
+ | 
+2023-02-19 22:28:45.1822|Warn|=== Inspection finished  === | 
+2023-02-19 22:28:45.2214|Warn|### SYSTEM UNLOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS RESEUMED ### | 
