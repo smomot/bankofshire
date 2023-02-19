@@ -1,12 +1,10 @@
-# SERVICES DESCRIPTION 
+# The Bank of Shire
+
+## SERVICES DESCRIPTION 
 
 ShireBankService -> gRPC service for manipulationg bank operations. It contains local db Sql lite 
-as data source, but it can work also with in memory database by uncoment and comment following line 
-and change a bit BankDbContext. 
-
-
-    //builder.Services.AddDbContext<BankDbContext>(opt => opt.UseInMemoryDatabase("BankDb"));
-    builder.Services.AddDbContext<BankDbContext>(opt => opt.UseSqlite("Data Source=LocalDatabase.db"));
+as data source. ShireBankServiceTest project is used to unit test its busienss classes and its work 
+on InMemory db context provider. 
 
 CustomerClient -> console application client for functional test of ShireBankService. 
 
@@ -15,7 +13,7 @@ InspectorClient -> console application client for do controlle bank accounts. Co
 
 
 
-# SETUP & DEPLOYMENT 
+## SETUP & DEPLOYMENT 
 
 Please use publish.ps1 for release deployement. 
 ShireBankService project contains migration at runtime, that will update sql lite databse 
@@ -35,9 +33,8 @@ After run publish.ps1 script, services will deploy to output folder that is next
 Shire Bank service overrides production and development host and starts at: https://+:7212  
 
 
+# The Bank of Shire original task!
 
-
-# The Bank of Shire
 
 Greatings dear sir or madam! I'm writing to you with a big request: I would like you to implement a host service for our
 Bank of Shire.

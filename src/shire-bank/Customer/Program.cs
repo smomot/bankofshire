@@ -4,13 +4,13 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using NLog;
 using NLog.Extensions.Logging;
-
 using CustomerClient;
-
+using Spectre.Console;
+using Grpc.Core;
 
 internal partial class Program
 {
-    private static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         var logger = LogManager.GetCurrentClassLogger();
 
@@ -23,8 +23,8 @@ internal partial class Program
           
             string serviceHost = config.GetValue<string>("BankAddress"); 
             using var channel = GrpcChannel.ForAddress(serviceHost);
-            using var servicesProvider = new ServiceCollection()
 
+            using var servicesProvider = new ServiceCollection()
            .AddLogging(loggingBuilder =>
            {
                // configure Logging with NLog
@@ -34,19 +34,36 @@ internal partial class Program
            }).
             AddTransient<CustomerFunctionalTest>().AddTransient<Bank.BankClient>(s => new Bank.BankClient(channel))
            .BuildServiceProvider();
-            var runner = servicesProvider.GetRequiredService<CustomerFunctionalTest>();
-            runner.StartTest();
 
+            AnsiConsole.Write(new FigletText("Bank of Shire").Color(Color.Green));
+            var functionalTest = servicesProvider.GetRequiredService<CustomerFunctionalTest>();
+            await functionalTest.StartTest();
+        }
+        catch (RpcException ex) when (ex.StatusCode == StatusCode.Unavailable)
+        {
+            logger.Error("Bank of shire service is currenty offline!");
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
         }
         catch (Exception ex)
         {
-            // NLog: catch any exception and log it.
-            logger.Error(ex, "Stopped program because of exception");
-            throw;
+            if (ex.InnerException != null && ex.InnerException.GetType() == typeof(RpcException) && ((RpcException)ex.InnerException).StatusCode == StatusCode.Unavailable)
+            {
+                logger.Error("Bank of shire service is currenty offline!");
+                Console.WriteLine("Press any key to exit...");
+                Console.ReadKey();
+            }
+            else
+            {
+
+                // NLog: catch any exception and log it.
+                logger.Error(ex, "Stopped program because of exception");
+                throw;
+            }
+           
         }
         finally
         {
-            // Ensure to flush and stop internal timers/threads before application-exit (Avoid segmentation fault on Linux)
             LogManager.Shutdown();
         }
     }

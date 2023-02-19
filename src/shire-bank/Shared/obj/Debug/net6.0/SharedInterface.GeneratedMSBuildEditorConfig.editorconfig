@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = SharedInterface
-build_property.ProjectDir = C:\Users\Sławomir Momot\Source\Repos\smomot\bankofshire\src\shire-bank\Shared\
+build_property.ProjectDir = C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\Shared\

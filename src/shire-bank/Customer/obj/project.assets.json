@@ -676,6 +676,22 @@
           }
         }
       },
+      "Spectre.Console/0.46.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "compile": {
+          "lib/net6.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "System.Diagnostics.DiagnosticSource/7.0.1": {
         "type": "package",
         "dependencies": {
@@ -721,7 +737,7 @@
           }
         }
       },
-      "System.Memory/4.5.3": {
+      "System.Memory/4.5.5": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.1/_._": {}
@@ -1774,6 +1790,24 @@
         "nlog.extensions.logging.nuspec"
       ]
     },
+    "Spectre.Console/0.46.0": {
+      "sha512": "qd2OMEGxfQW1KLuQj56KKHkIK6eB/IUF/AET5CRl/efROHGsvBehx9shfkL0HgJEHLCwRiR7foWi4/LkdPk18g==",
+      "type": "package",
+      "path": "spectre.console/0.46.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Spectre.Console.dll",
+        "lib/net6.0/Spectre.Console.xml",
+        "lib/net7.0/Spectre.Console.dll",
+        "lib/net7.0/Spectre.Console.xml",
+        "lib/netstandard2.0/Spectre.Console.dll",
+        "lib/netstandard2.0/Spectre.Console.xml",
+        "small-logo.png",
+        "spectre.console.0.46.0.nupkg.sha512",
+        "spectre.console.nuspec"
+      ]
+    },
     "System.Diagnostics.DiagnosticSource/7.0.1": {
       "sha512": "T9SLFxzDp0SreCffRDXSAS5G+lq6E8qP4knHS2IBjwCdx2KEvGnGZsq7gFpselYOda7l6gXsJMD93TQsFj/URA==",
       "type": "package",
@@ -1834,22 +1868,24 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Memory/4.5.3": {
-      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
       "type": "package",
-      "path": "system.memory/4.5.3",
+      "path": "system.memory/4.5.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
         "lib/netcoreapp2.1/_._",
         "lib/netstandard1.1/System.Memory.dll",
         "lib/netstandard1.1/System.Memory.xml",
         "lib/netstandard2.0/System.Memory.dll",
         "lib/netstandard2.0/System.Memory.xml",
         "ref/netcoreapp2.1/_._",
-        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.4.5.5.nupkg.sha512",
         "system.memory.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -1992,7 +2028,8 @@
       "Microsoft.Extensions.Configuration.Json >= 7.0.0",
       "Microsoft.Extensions.DependencyInjection >= 7.0.0",
       "Microsoft.Extensions.Hosting >= 7.0.1",
-      "NLog.Extensions.Logging >= 5.2.1"
+      "NLog.Extensions.Logging >= 5.2.1",
+      "Spectre.Console >= 0.46.0"
     ]
   },
   "packageFolders": {
@@ -2001,11 +2038,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\PRACA\\shire-bank\\Customer\\CustomerClient.csproj",
+      "projectUniqueName": "C:\\Users\\Developer\\Source\\Repos\\smomot\\bankofshire\\src\\shire-bank\\Customer\\CustomerClient.csproj",
       "projectName": "CustomerClient",
-      "projectPath": "C:\\Projects\\PRACA\\shire-bank\\Customer\\CustomerClient.csproj",
+      "projectPath": "C:\\Users\\Developer\\Source\\Repos\\smomot\\bankofshire\\src\\shire-bank\\Customer\\CustomerClient.csproj",
       "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\PRACA\\shire-bank\\Customer\\obj\\",
+      "outputPath": "C:\\Users\\Developer\\Source\\Repos\\smomot\\bankofshire\\src\\shire-bank\\Customer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2067,6 +2104,10 @@
           "NLog.Extensions.Logging": {
             "target": "Package",
             "version": "[5.2.1, )"
+          },
+          "Spectre.Console": {
+            "target": "Package",
+            "version": "[0.46.0, )"
           }
         },
         "imports": [

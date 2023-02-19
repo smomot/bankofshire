@@ -1,9 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace ShireBankService.Infrastructure
 {
@@ -19,7 +14,7 @@ namespace ShireBankService.Infrastructure
         public string LockSystemForClientOperations()
         {
             IsSystemLockForClientsOperations = true;
-            var result = "### SYSTEM LOCKED FOR USERS OPERATION - ALL HOBBIT OPERATION SUSPENDED ###";
+            var result = "### SYSTEM LOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS SUSPENDED ###";
             _logger.LogWarning(result);
             return result;
         }
@@ -28,7 +23,7 @@ namespace ShireBankService.Infrastructure
         public string UnlockSystemForClientOperations()
         {
             IsSystemLockForClientsOperations = false;
-            var result = "### SYSTEM UNLOCKED FOR USERS OPERATION - ALL HOBBIT OPERATION RESEUMED ###";
+            var result = "### SYSTEM UNLOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS RESEUMED ###";
             _logger.LogWarning(result);
             return result;
 

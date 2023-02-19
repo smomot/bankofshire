@@ -1,5 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
-
+﻿
 namespace ShireBankService.Infrastructure
 {
     public static class MigrationManager

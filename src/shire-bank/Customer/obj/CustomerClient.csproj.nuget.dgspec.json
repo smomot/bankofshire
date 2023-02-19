@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\PRACA\\shire-bank\\Customer\\CustomerClient.csproj": {}
+    "C:\\Users\\Developer\\Source\\Repos\\smomot\\bankofshire\\src\\shire-bank\\Customer\\CustomerClient.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\PRACA\\shire-bank\\Customer\\CustomerClient.csproj": {
+    "C:\\Users\\Developer\\Source\\Repos\\smomot\\bankofshire\\src\\shire-bank\\Customer\\CustomerClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\PRACA\\shire-bank\\Customer\\CustomerClient.csproj",
+        "projectUniqueName": "C:\\Users\\Developer\\Source\\Repos\\smomot\\bankofshire\\src\\shire-bank\\Customer\\CustomerClient.csproj",
         "projectName": "CustomerClient",
-        "projectPath": "C:\\Projects\\PRACA\\shire-bank\\Customer\\CustomerClient.csproj",
+        "projectPath": "C:\\Users\\Developer\\Source\\Repos\\smomot\\bankofshire\\src\\shire-bank\\Customer\\CustomerClient.csproj",
         "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\PRACA\\shire-bank\\Customer\\obj\\",
+        "outputPath": "C:\\Users\\Developer\\Source\\Repos\\smomot\\bankofshire\\src\\shire-bank\\Customer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -73,6 +73,10 @@
             "NLog.Extensions.Logging": {
               "target": "Package",
               "version": "[5.2.1, )"
+            },
+            "Spectre.Console": {
+              "target": "Package",
+              "version": "[0.46.0, )"
             }
           },
           "imports": [

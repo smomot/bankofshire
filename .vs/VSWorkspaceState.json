@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\shire-bank",
+    "\\src\\shire-bank\\Inspector"
   ],
-  "SelectedNode": "\\C:\\Users\\Sławomir Momot\\Source\\Repos\\smomot\\bankofshire",
+  "SelectedNode": "\\src\\shire-bank\\ShireBankTest.sln",
   "PreviewInSolutionExplorer": false
 }

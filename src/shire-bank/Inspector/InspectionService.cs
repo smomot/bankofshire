@@ -1,14 +1,13 @@
 ﻿using Microsoft.Extensions.Logging;
 using Google.Protobuf.WellKnownTypes;
-using InspectorClient.Infrastructure;
 
 namespace InspectorClient
 {
-    internal class InspectionService : IInspector
+    internal class InspectionService
     {
         private readonly ILogger<InspectionService> _logger;
         Bank.BankClient _client;
-   
+
         public InspectionService(ILogger<InspectionService> logger, Bank.BankClient client)
         {
             _logger = logger;
@@ -17,15 +16,15 @@ namespace InspectorClient
 
         public async Task<string> GetFullSummary()
         {
-          var result = await _client.GetFullSummaryAsync(new Empty());
-          _logger.LogTrace(result.Value); 
-          return result.Value;
+            var result = await _client.GetFullSummaryAsync(new Empty());
+            _logger.LogTrace(result.Value);
+            return result.Value;
         }
         public async Task StartInspection()
         {
             _logger.LogWarning("=== Inspection started ===");
-           var result = await _client.StartInspectionAsync(new Empty());
-           _logger.LogWarning(result.Value);
+            var result = await _client.StartInspectionAsync(new Empty());
+            _logger.LogWarning(result.Value);
 
         }
         public async Task FinishInspection()

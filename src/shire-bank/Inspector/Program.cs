@@ -6,6 +6,8 @@ using Microsoft.Extensions.Logging;
 using NLog;
 using NLog.Extensions.Logging;
 using InspectorClient;
+using Spectre.Console;
+using Grpc.Core;
 
 internal partial class Program
 {
@@ -33,19 +35,27 @@ internal partial class Program
            })
            .AddTransient<InspectionService>().AddTransient<Bank.BankClient>(s => new Bank.BankClient(channel))
            .BuildServiceProvider();
-
-             var runner = servicesProvider.GetRequiredService<InspectionService>();
-             await runner.StartInspection();
-             await runner.GetFullSummary();
+            
+             AnsiConsole.Write(new FigletText("Bank of Shire").Color(Color.Green));
+             var inspection = servicesProvider.GetRequiredService<InspectionService>();
+             await inspection.StartInspection();
+             await inspection.GetFullSummary();
              Console.WriteLine("Press any key to continue...");
              Console.ReadKey();
-             await runner.FinishInspection();
+             await inspection.FinishInspection();
             
              Console.WriteLine("Press any key to exit...");
              Console.ReadKey();
         }
+        catch (RpcException ex) when (ex.StatusCode == StatusCode.Unavailable)
+        {
+            logger.Error("Bank of shire service is currenty offline!");         
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+        }
         catch (Exception ex)
         {
+            
             // NLog: catch any exception and log it.
             logger.Error(ex, "Stopped program because of exception");
             throw;

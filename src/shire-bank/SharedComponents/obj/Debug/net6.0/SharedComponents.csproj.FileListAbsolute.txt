@@ -1,0 +1,12 @@
+C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\SharedComponents\bin\Debug\net6.0\SharedComponents.deps.json
+C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\SharedComponents\bin\Debug\net6.0\SharedComponents.dll
+C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\SharedComponents\bin\Debug\net6.0\SharedComponents.pdb
+C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\SharedComponents\obj\Debug\net6.0\SharedComponents.csproj.AssemblyReference.cache
+C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\SharedComponents\obj\Debug\net6.0\SharedComponents.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\SharedComponents\obj\Debug\net6.0\SharedComponents.AssemblyInfoInputs.cache
+C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\SharedComponents\obj\Debug\net6.0\SharedComponents.AssemblyInfo.cs
+C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\SharedComponents\obj\Debug\net6.0\SharedComponents.csproj.CoreCompileInputs.cache
+C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\SharedComponents\obj\Debug\net6.0\SharedComponents.dll
+C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\SharedComponents\obj\Debug\net6.0\refint\SharedComponents.dll
+C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\SharedComponents\obj\Debug\net6.0\SharedComponents.pdb
+C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\SharedComponents\obj\Debug\net6.0\ref\SharedComponents.dll

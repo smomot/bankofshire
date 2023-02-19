@@ -574,6 +574,22 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Spectre.Console/0.46.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.5"
+        },
+        "compile": {
+          "lib/net6.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Spectre.Console.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.4": {
         "type": "package",
         "dependencies": {
@@ -728,7 +744,7 @@
           "lib/netstandard2.0/System.CodeDom.dll": {}
         }
       },
-      "System.Memory/4.5.3": {
+      "System.Memory/4.5.5": {
         "type": "package",
         "compile": {
           "ref/netcoreapp2.1/_._": {}
@@ -796,6 +812,22 @@
         },
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
+        }
+      },
+      "SharedComponents/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.3",
+          "Microsoft.EntityFrameworkCore.InMemory": "7.0.3",
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.3",
+          "Microsoft.Extensions.Configuration.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SharedComponents.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SharedComponents.dll": {}
         }
       }
     }
@@ -1616,6 +1648,24 @@
         "nlog.web.aspnetcore.nuspec"
       ]
     },
+    "Spectre.Console/0.46.0": {
+      "sha512": "qd2OMEGxfQW1KLuQj56KKHkIK6eB/IUF/AET5CRl/efROHGsvBehx9shfkL0HgJEHLCwRiR7foWi4/LkdPk18g==",
+      "type": "package",
+      "path": "spectre.console/0.46.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Spectre.Console.dll",
+        "lib/net6.0/Spectre.Console.xml",
+        "lib/net7.0/Spectre.Console.dll",
+        "lib/net7.0/Spectre.Console.xml",
+        "lib/netstandard2.0/Spectre.Console.dll",
+        "lib/netstandard2.0/Spectre.Console.xml",
+        "small-logo.png",
+        "spectre.console.0.46.0.nupkg.sha512",
+        "spectre.console.nuspec"
+      ]
+    },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.4": {
       "sha512": "EWI1olKDjFEBMJu0+3wuxwziIAdWDVMYLhuZ3Qs84rrz+DHwD00RzWPZCa+bLnHCf3oJwuFZIRsHT5p236QXww==",
       "type": "package",
@@ -1727,22 +1777,24 @@
         "version.txt"
       ]
     },
-    "System.Memory/4.5.3": {
-      "sha512": "3oDzvc/zzetpTKWMShs1AADwZjQ/36HnsufHRPcOjyRAAMLDlu2iD33MBI2opxnezcVUtXyqDXXjoFMOU9c7SA==",
+    "System.Memory/4.5.5": {
+      "sha512": "XIWiDvKPXaTveaB7HVganDlOCRoj03l+jrwNvcge/t8vhGYKvqV+dMv6G4SAX2NoNmN0wZfVPTAlFwZcZvVOUw==",
       "type": "package",
-      "path": "system.memory/4.5.3",
+      "path": "system.memory/4.5.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
         "lib/netcoreapp2.1/_._",
         "lib/netstandard1.1/System.Memory.dll",
         "lib/netstandard1.1/System.Memory.xml",
         "lib/netstandard2.0/System.Memory.dll",
         "lib/netstandard2.0/System.Memory.xml",
         "ref/netcoreapp2.1/_._",
-        "system.memory.4.5.3.nupkg.sha512",
+        "system.memory.4.5.5.nupkg.sha512",
         "system.memory.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -1874,6 +1926,11 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "SharedComponents/1.0.0": {
+      "type": "project",
+      "path": "../SharedComponents/SharedComponents.csproj",
+      "msbuildProject": "../SharedComponents/SharedComponents.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -1882,7 +1939,9 @@
       "Microsoft.EntityFrameworkCore.Design >= 7.0.3",
       "Microsoft.EntityFrameworkCore.InMemory >= 7.0.3",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.3",
-      "NLog.Web.AspNetCore >= 5.2.2"
+      "NLog.Web.AspNetCore >= 5.2.2",
+      "SharedComponents >= 1.0.0",
+      "Spectre.Console >= 0.46.0"
     ]
   },
   "packageFolders": {
@@ -1891,11 +1950,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\PRACA\\shire-bank\\ShireBank\\ShireBankService.csproj",
+      "projectUniqueName": "C:\\Users\\Developer\\Source\\Repos\\smomot\\bankofshire\\src\\shire-bank\\ShireBank\\ShireBankService.csproj",
       "projectName": "ShireBankService",
-      "projectPath": "C:\\Projects\\PRACA\\shire-bank\\ShireBank\\ShireBankService.csproj",
+      "projectPath": "C:\\Users\\Developer\\Source\\Repos\\smomot\\bankofshire\\src\\shire-bank\\ShireBank\\ShireBankService.csproj",
       "packagesPath": "C:\\Users\\Developer\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\PRACA\\shire-bank\\ShireBank\\obj\\",
+      "outputPath": "C:\\Users\\Developer\\Source\\Repos\\smomot\\bankofshire\\src\\shire-bank\\ShireBank\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -1911,7 +1970,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Developer\\Source\\Repos\\smomot\\bankofshire\\src\\shire-bank\\SharedComponents\\SharedComponents.csproj": {
+              "projectPath": "C:\\Users\\Developer\\Source\\Repos\\smomot\\bankofshire\\src\\shire-bank\\SharedComponents\\SharedComponents.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -1945,6 +2008,10 @@
           "NLog.Web.AspNetCore": {
             "target": "Package",
             "version": "[5.2.2, )"
+          },
+          "Spectre.Console": {
+            "target": "Package",
+            "version": "[0.46.0, )"
           }
         },
         "imports": [
