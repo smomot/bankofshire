@@ -59,9 +59,9 @@ leave you a test application (good lad!) - you should figure out everything you 
    Console.ReadKey()
    FinishInspection() 
 ```
-* Migrate the solution to .NET 6.- ok 
-* Migrate WCF to GRPC. -ok 
-* Use asynchronous calls where it's possible. - ok 
+* Migrate the solution to .NET 6.
+* Migrate WCF to GRPC. 
+* Use asynchronous calls where it's possible. 
 * Setup logging with NLog instead of logging with `Console.WriteLine`.
 * Persist bank accounts on disk in SQLite database using Entity Framework Core.
 * Feel free to change any other code (including shared interface if you need).
