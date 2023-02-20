@@ -310,3 +310,737 @@ Date :01.01.0001 Operation :Withdraw Ammount: 2000
  | 
 2023-02-19 22:28:45.1822|Warn|=== Inspection finished  === | 
 2023-02-19 22:28:45.2214|Warn|### SYSTEM UNLOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS RESEUMED ### | 
+2023-02-20 09:51:29.3217|Warn|=== Inspection started === | 
+2023-02-20 09:51:30.3984|Warn|### SYSTEM LOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS SUSPENDED ### | 
+2023-02-20 09:51:30.4876|Trace|Hello 1 | 
+2023-02-20 09:51:30.6943|Trace|Hello 2 | 
+2023-02-20 09:51:30.9060|Trace|Hello 3 | 
+2023-02-20 09:51:31.1138|Trace|Hello 4 | 
+2023-02-20 09:51:31.3195|Trace|Hello 5 | 
+2023-02-20 09:51:31.5355|Trace|Hello 6 | 
+2023-02-20 09:51:31.7524|Trace|Hello 7 | 
+2023-02-20 09:51:31.9656|Trace|Hello 8 | 
+2023-02-20 09:51:32.1866|Trace|Hello 9 | 
+2023-02-20 09:51:32.3998|Trace|Hello 10 | 
+2023-02-20 09:51:34.2633|Warn|=== Inspection finished  === | 
+2023-02-20 09:51:34.2890|Warn|### SYSTEM UNLOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS RESEUMED ### | 
+2023-02-20 11:02:20.9620|Warn|=== Inspection started === | 
+2023-02-20 11:02:22.3839|Warn|### SYSTEM LOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS SUSPENDED ### | 
+2023-02-20 11:02:25.3723|Warn|=== Inspection finished  === | 
+2023-02-20 11:02:25.4056|Warn|### SYSTEM UNLOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS RESEUMED ### | 
+2023-02-20 11:04:47.7670|Warn|=== Inspection started === | 
+2023-02-20 11:04:48.2985|Warn|### SYSTEM LOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS SUSPENDED ### | 
+2023-02-20 11:04:48.3796|Trace| 
+-------------------------------
+[History operations for Henrietta Baggins]:
+-------------------------------
+Date :01.01.0001 Operation :Deposit Ammount: 500
+Date :01.01.0001 Operation :Deposit Ammount: 500
+Date :01.01.0001 Operation :Deposit Ammount: 1000
+Date :01.01.0001 Operation :Withdraw Ammount: 2000
+
+-------------------------------
+[End history]
+-------------------------------
+
+ | 
+2023-02-20 11:04:48.4123|Trace| 
+-------------------------------
+[History operations for Gandalf Grey]:
+-------------------------------
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+
+-------------------------------
+[End history]
+-------------------------------
+
+ | 
+2023-02-20 11:04:48.4582|Trace| 
+-------------------------------
+[History operations for Barbara Tuk]:
+-------------------------------
+Date :01.01.0001 Operation :Deposit Ammount: 100
+Date :01.01.0001 Operation :Withdraw Ammount: 50
+
+-------------------------------
+[End history]
+-------------------------------
+
+ | 
+2023-02-20 11:12:14.6315|Warn|=== Inspection started === | 
+2023-02-20 11:12:15.2677|Warn|### SYSTEM LOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS SUSPENDED ### | 
+2023-02-20 11:12:15.3564|Trace| 
+-------------------------------
+[History operations for Gandalf Grey]:
+-------------------------------
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+
+-------------------------------
+[End history]
+-------------------------------
+
+ | 
+2023-02-20 11:12:15.4674|Trace| 
+-------------------------------
+[History operations for Barbara Tuk]:
+-------------------------------
+Date :01.01.0001 Operation :Deposit Ammount: 100
+Date :01.01.0001 Operation :Withdraw Ammount: 50
+
+-------------------------------
+[End history]
+-------------------------------
+
+ | 
+2023-02-20 11:12:15.5777|Trace| 
+-------------------------------
+[History operations for Henrietta Baggins]:
+-------------------------------
+Date :01.01.0001 Operation :Deposit Ammount: 500
+Date :01.01.0001 Operation :Deposit Ammount: 500
+Date :01.01.0001 Operation :Deposit Ammount: 1000
+Date :01.01.0001 Operation :Withdraw Ammount: 2000
+
+-------------------------------
+[End history]
+-------------------------------
+
+ | 
+2023-02-20 11:12:29.4434|Warn|=== Inspection finished  === | 
+2023-02-20 11:12:29.4873|Warn|### SYSTEM UNLOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS RESEUMED ### | 
+2023-02-20 11:13:10.5197|Warn|=== Inspection started === | 
+2023-02-20 11:13:11.0217|Warn|### SYSTEM LOCKED FOR USERS OPERATION - ALL HOBBIT OPERATIONS SUSPENDED ### | 
+2023-02-20 11:13:14.5602|Trace| 
+-------------------------------
+[History operations for Gandalf Grey]:
+-------------------------------
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Withdraw Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+Date :01.01.0001 Operation :Deposit Ammount: 10
+
+-------------------------------
+[End history]
+-------------------------------
+
+ | 
+2023-02-20 11:13:45.9934|Trace| 
+-------------------------------
+[History operations for Barbara Tuk]:
+-------------------------------
+Date :01.01.0001 Operation :Deposit Ammount: 100
+Date :01.01.0001 Operation :Withdraw Ammount: 50
+
+-------------------------------
+[End history]
+-------------------------------
+
+ | 
+2023-02-20 11:13:47.4732|Trace| 
+-------------------------------
+[History operations for Henrietta Baggins]:
+-------------------------------
+Date :01.01.0001 Operation :Deposit Ammount: 500
+Date :01.01.0001 Operation :Deposit Ammount: 500
+Date :01.01.0001 Operation :Deposit Ammount: 1000
+Date :01.01.0001 Operation :Withdraw Ammount: 2000
+
+-------------------------------
+[End history]
+-------------------------------
+
+ | 

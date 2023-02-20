@@ -30,7 +30,7 @@ namespace InspectorClient {
             "c3ROYW1lGAIgASgJEhEKCWRlYnRMaW1pdBgDIAEoAiIyCg5EZXBvc2l0UmVx",
             "dWVzdBIPCgdhY2NvdW50GAEgASgNEg8KB2FtbW91bnQYAiABKAIiMwoPV2l0",
             "aGRyYXdSZXF1ZXN0Eg8KB2FjY291bnQYASABKA0SDwoHYW1tb3VudBgCIAEo",
-            "AjK4BAoEQmFuaxJGCgtPcGVuQWNjb3VudBIZLmdyZWV0Lk9wZW5BY2NvdW50",
+            "AjK6BAoEQmFuaxJGCgtPcGVuQWNjb3VudBIZLmdyZWV0Lk9wZW5BY2NvdW50",
             "UmVxdWVzdBocLmdvb2dsZS5wcm90b2J1Zi5VSW50MzJWYWx1ZRI/CghXaXRo",
             "ZHJhdxIWLmdyZWV0LldpdGhkcmF3UmVxdWVzdBobLmdvb2dsZS5wcm90b2J1",
             "Zi5GbG9hdFZhbHVlEjgKB0RlcG9zaXQSFS5ncmVldC5EZXBvc2l0UmVxdWVz",
@@ -41,9 +41,9 @@ namespace InspectorClient {
             "cnRJbnNwZWN0aW9uEhYuZ29vZ2xlLnByb3RvYnVmLkVtcHR5GhwuZ29vZ2xl",
             "LnByb3RvYnVmLlN0cmluZ1ZhbHVlEkgKEEZpbmlzaEluc3BlY3Rpb24SFi5n",
             "b29nbGUucHJvdG9idWYuRW1wdHkaHC5nb29nbGUucHJvdG9idWYuU3RyaW5n",
-            "VmFsdWUSRgoOR2V0RnVsbFN1bW1hcnkSFi5nb29nbGUucHJvdG9idWYuRW1w",
-            "dHkaHC5nb29nbGUucHJvdG9idWYuU3RyaW5nVmFsdWVCEqoCD0luc3BlY3Rv",
-            "ckNsaWVudGIGcHJvdG8z"));
+            "VmFsdWUSSAoOR2V0RnVsbFN1bW1hcnkSFi5nb29nbGUucHJvdG9idWYuRW1w",
+            "dHkaHC5nb29nbGUucHJvdG9idWYuU3RyaW5nVmFsdWUwAUISqgIPSW5zcGVj",
+            "dG9yQ2xpZW50YgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { global::Google.Protobuf.WellKnownTypes.WrappersReflection.Descriptor, global::Google.Protobuf.WellKnownTypes.EmptyReflection.Descriptor, },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {

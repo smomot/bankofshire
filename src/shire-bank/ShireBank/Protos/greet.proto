@@ -14,7 +14,7 @@ service Bank {
   rpc CloseAccount (google.protobuf.UInt32Value) returns (google.protobuf.BoolValue);
   rpc StartInspection (google.protobuf.Empty)  returns  (google.protobuf.StringValue);
   rpc FinishInspection (google.protobuf.Empty) returns  (google.protobuf.StringValue);
-  rpc GetFullSummary (google.protobuf.Empty) returns (google.protobuf.StringValue);
+  rpc GetFullSummary (google.protobuf.Empty) returns (stream google.protobuf.StringValue);
 }
 
 message OpenAccountRequest {

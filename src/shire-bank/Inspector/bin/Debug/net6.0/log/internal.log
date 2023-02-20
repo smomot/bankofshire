@@ -89,3 +89,52 @@
 2023-02-19 22:28:40.2464 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=45, FilePath=C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\Inspector\bin\Debug\net6.0\NLog.config
 2023-02-19 22:28:40.2665 Info Configuration initialized.
 2023-02-19 22:28:40.2988 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-20 09:51:28.5818 Info Message Template Auto Format enabled
+2023-02-20 09:51:28.7643 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-20 09:51:28.8300 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-20 09:51:28.8596 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=45, FilePath=C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\Inspector\bin\Debug\net6.0\NLog.config
+2023-02-20 09:51:28.8771 Info Configuration initialized.
+2023-02-20 09:51:28.8943 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-20 09:51:35.1639 Info Shutdown() called. Logger closing...
+2023-02-20 09:51:35.1654 Info Closing old configuration.
+2023-02-20 09:51:35.1654 Info Logger has been closed down.
+2023-02-20 11:02:19.8305 Info Message Template Auto Format enabled
+2023-02-20 11:02:19.9804 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-20 11:02:20.0384 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-20 11:02:20.0696 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=45, FilePath=C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\Inspector\bin\Debug\net6.0\NLog.config
+2023-02-20 11:02:20.0867 Info Configuration initialized.
+2023-02-20 11:02:20.0973 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-20 11:02:26.5891 Info Shutdown() called. Logger closing...
+2023-02-20 11:02:26.5891 Info Closing old configuration.
+2023-02-20 11:02:26.5891 Info Logger has been closed down.
+2023-02-20 11:04:47.0918 Info Message Template Auto Format enabled
+2023-02-20 11:04:47.2573 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-20 11:04:47.3094 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-20 11:04:47.3399 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=45, FilePath=C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\Inspector\bin\Debug\net6.0\NLog.config
+2023-02-20 11:04:47.3595 Info Configuration initialized.
+2023-02-20 11:04:47.3713 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-20 11:11:49.0815 Info Message Template Auto Format enabled
+2023-02-20 11:11:49.2399 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-20 11:11:49.3017 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-20 11:11:49.3286 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=45, FilePath=C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\Inspector\bin\Debug\net6.0\NLog.config
+2023-02-20 11:11:49.3446 Info Configuration initialized.
+2023-02-20 11:11:49.3569 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-20 11:12:04.1558 Info AppDomain Shutting down. LogFactory closing...
+2023-02-20 11:12:05.7116 Warn Flush completed with errors Exception: System.TimeoutException: Timeout when flushing all targets, after waiting 1,5 seconds.
+2023-02-20 11:12:05.7116 Warn Target flush timeout. One or more targets did not complete flush operation, skipping target close.
+2023-02-20 11:12:05.7116 Info LogFactory has been closed.
+2023-02-20 11:12:13.6229 Info Message Template Auto Format enabled
+2023-02-20 11:12:13.8710 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-20 11:12:13.9892 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-20 11:12:14.0507 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=45, FilePath=C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\Inspector\bin\Debug\net6.0\NLog.config
+2023-02-20 11:12:14.0830 Info Configuration initialized.
+2023-02-20 11:12:14.0974 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False
+2023-02-20 11:12:31.8238 Info Shutdown() called. Logger closing...
+2023-02-20 11:12:31.8238 Info Closing old configuration.
+2023-02-20 11:12:31.8238 Info Logger has been closed down.
+2023-02-20 11:13:09.6942 Info Message Template Auto Format enabled
+2023-02-20 11:13:09.9020 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2023-02-20 11:13:09.9647 Info Registered target NLog.Targets.ColoredConsoleTarget(Name=logconsole)
+2023-02-20 11:13:10.0049 Info Validating config: TargetNames=logfile, logconsole, ConfigItems=45, FilePath=C:\Users\Developer\Source\Repos\smomot\bankofshire\src\shire-bank\Inspector\bin\Debug\net6.0\NLog.config
+2023-02-20 11:13:10.0261 Info Configuration initialized.
+2023-02-20 11:13:10.0360 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.1.1.1522. Product version: 5.1.1+b1175f1ad0ce4a4a9d1f4b61538202071d7be513. GlobalAssemblyCache: False

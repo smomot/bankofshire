@@ -26,7 +26,7 @@
                 await context.SaveChangesAsync();
                 //Act 
                 Inspector inspectorService = new Inspector(context,applicationState, loggerForInspector.Object);
-                var summaryResult = await inspectorService.GetFullSummary();                
+                var summaryResult =  inspectorService.GetFullSummary();                
                 Assert.NotNull(summaryResult);
             }
         }

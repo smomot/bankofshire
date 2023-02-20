@@ -8,7 +8,8 @@ namespace SharedComponents
 {
     public interface IInspector
     {
-        Task<string> GetFullSummary();
+
+        IAsyncEnumerable<string> GetFullSummary();
         Task<string> StartInspection();
         Task<string> FinishInspection();
     }

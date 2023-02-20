@@ -103,13 +103,18 @@ namespace ShireBankService.Services
             return result;
         }
 
-        public override async Task<StringValue> GetFullSummary(Empty empty, ServerCallContext context)
+        public override async Task GetFullSummary(Empty empty, IServerStreamWriter<StringValue> responseStream,  ServerCallContext context)
         {
-            StringValue result = new StringValue();
-            var summaryResult = await _inspectorService.GetFullSummary();
-            result.Value = summaryResult;
+            var items =  _inspectorService.GetFullSummary();
+            await foreach (var item in items)
+            {
+                await responseStream.WriteAsync(new StringValue
+                {
+                    Value = $" {item}"
+                });
 
-            return result;
+                await Task.Delay(100);
+            }
         }
 
     }

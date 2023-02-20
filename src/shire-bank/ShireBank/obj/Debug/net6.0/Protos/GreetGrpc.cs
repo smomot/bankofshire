@@ -125,7 +125,7 @@ namespace ShireBankService {
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Google.Protobuf.WellKnownTypes.StringValue> __Method_GetFullSummary = new grpc::Method<global::Google.Protobuf.WellKnownTypes.Empty, global::Google.Protobuf.WellKnownTypes.StringValue>(
-        grpc::MethodType.Unary,
+        grpc::MethodType.ServerStreaming,
         __ServiceName,
         "GetFullSummary",
         __Marshaller_google_protobuf_Empty,
@@ -184,7 +184,7 @@ namespace ShireBankService {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::Google.Protobuf.WellKnownTypes.StringValue> GetFullSummary(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task GetFullSummary(global::Google.Protobuf.WellKnownTypes.Empty request, grpc::IServerStreamWriter<global::Google.Protobuf.WellKnownTypes.StringValue> responseStream, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -221,7 +221,7 @@ namespace ShireBankService {
       serviceBinder.AddMethod(__Method_CloseAccount, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.UInt32Value, global::Google.Protobuf.WellKnownTypes.BoolValue>(serviceImpl.CloseAccount));
       serviceBinder.AddMethod(__Method_StartInspection, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Google.Protobuf.WellKnownTypes.StringValue>(serviceImpl.StartInspection));
       serviceBinder.AddMethod(__Method_FinishInspection, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Google.Protobuf.WellKnownTypes.StringValue>(serviceImpl.FinishInspection));
-      serviceBinder.AddMethod(__Method_GetFullSummary, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Google.Protobuf.WellKnownTypes.StringValue>(serviceImpl.GetFullSummary));
+      serviceBinder.AddMethod(__Method_GetFullSummary, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::Google.Protobuf.WellKnownTypes.Empty, global::Google.Protobuf.WellKnownTypes.StringValue>(serviceImpl.GetFullSummary));
     }
 
   }

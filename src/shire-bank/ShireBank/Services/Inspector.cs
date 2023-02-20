@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-
+using System.Collections.Immutable;
 
 namespace ShireBankService.Services
 {
@@ -21,38 +21,80 @@ namespace ShireBankService.Services
             return Task.FromResult(result);
         }
 
-        public async Task<string> GetFullSummary()
+        public async IAsyncEnumerable<string> GetFullSummary()
         {
             string result = String.Empty;
-            var accounts =  await _dbcontext.Accounts.Include(s => s.AccountOperations).ToListAsync();
+            var accounts =   _dbcontext.Accounts.Include(s => s.AccountOperations).AsAsyncEnumerable();
+
             StringBuilder sb = new StringBuilder();
-
-            sb.AppendLine();
-            sb.AppendLine(String.Format("-------------------------------"));
-            sb.AppendLine(String.Format("[History operations for all accounts]"));
-            sb.AppendLine(String.Format("-------------------------------"));
-
-            foreach (var account in accounts)
+            await foreach (Account account in  accounts) 
             {
-                sb.AppendLine();
-                sb.AppendLine(String.Format("-------------------------------"));
-                sb.AppendLine(String.Format("[History operations for {0} {1}]:", account.FirstName, account.LastName));
-                sb.AppendLine(String.Format("-------------------------------"));
+               sb.Clear();
+               sb.AppendLine();
+               sb.AppendLine(String.Format("-------------------------------"));
+               sb.AppendLine(String.Format("[History operations for {0} {1}]:", account.FirstName, account.LastName));
+               sb.AppendLine(String.Format("-------------------------------"));
 
-                var history = account.AccountOperations;
-                foreach (var item in history)
-                {
+               var history = account.AccountOperations;
+               foreach (var item in history)
+               {
                     sb.AppendLine("Date :" + item.OperatedAt.ToShortDateString() + " Operation :" + item.ActionType + " Ammount: " + item.Ammount);
-                }
+               }
 
-                sb.AppendLine();
-                sb.AppendLine(String.Format("-------------------------------"));
-                sb.AppendLine(String.Format("[End history]"));
-                sb.AppendLine(String.Format("-------------------------------"));
-                sb.AppendLine();
+               sb.AppendLine();
+               sb.AppendLine(String.Format("-------------------------------"));
+               sb.AppendLine(String.Format("[End history]"));
+               sb.AppendLine(String.Format("-------------------------------"));
+               sb.AppendLine();
+
+               yield return sb.ToString();
+
             }
-            result = sb.ToString();
-            return result;
+
+
+
+
+
+
+            //sb.AppendLine();
+            //sb.AppendLine(String.Format("-------------------------------"));
+            //sb.AppendLine(String.Format("[History operations for all accounts]"));
+            //sb.AppendLine(String.Format("-------------------------------"));
+
+            //foreach (var account in accounts)
+            //{
+            //    sb.AppendLine();
+            //    sb.AppendLine(String.Format("-------------------------------"));
+            //    sb.AppendLine(String.Format("[History operations for {0} {1}]:", account.FirstName, account.LastName));
+            //    sb.AppendLine(String.Format("-------------------------------"));
+
+            //    var history = account.AccountOperations;
+            //    foreach (var item in history)
+            //    {
+            //        sb.AppendLine("Date :" + item.OperatedAt.ToShortDateString() + " Operation :" + item.ActionType + " Ammount: " + item.Ammount);
+            //    }
+
+            //    sb.AppendLine();
+            //    sb.AppendLine(String.Format("-------------------------------"));
+            //    sb.AppendLine(String.Format("[End history]"));
+            //    sb.AppendLine(String.Format("-------------------------------"));
+            //    sb.AppendLine();
+            //}
+
+
+
+            //result = sb.ToString();
+            //return result;
+        }
+
+        public async Task<IEnumerable<Account>> GetItemAsync()
+        { 
+            return await FetchItems();
+        }
+
+        async Task<IEnumerable<Account>> FetchItems()
+        {
+            return await _dbcontext.Accounts.ToListAsync();
         }
 
         public  Task<string> StartInspection()
